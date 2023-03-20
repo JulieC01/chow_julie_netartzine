@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  }
+
+html {
+  scroll-behavior: smooth;
+  margin: auto;
+  background-image: url("../images/cherry-blossom.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+font-family: 'Noto Serif', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #E296A7;
+  width: 1128px;
+  text-align: left;
+  margin: 50px auto 50px auto;
+  
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+
+section {
+    margin: 50px 0px 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-auto-flow: dense;
+  }
+
+
+
+h1{
+    font-family: 'Shrikhand', cursive;
+    font-size: 50px;
+    color: #E296A7;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 35px;
+    color: #E296A7;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+    color: #E296A7;
+    line-height: 1.5;
+    margin: 0px;
+
+
+}
+
+
+
+.banner {
+    text-align: center;
+    grid-column: 1 / span 12;
+    width: 1181px;
+    
+}
+  
+
+
+.intro-image {
+    grid-column: 2 / span 11;
+    text-align: center;
+  
+}
+
+
+.about-title {
+    text-align: left;
+    grid-column: 3 / span 10;
+    margin: 0px;
+    
+}
+.info {
+    text-align: left;
+    grid-column: 3 / span 10;
+   
+}
+
+
+.about-description {
+    text-align: left;
+    grid-column: 3 / span 10;
+    width: 744px;
+  
+}
+
+.contact {
+    color: #E296A7;
+    text-decoration: none;
+    text-align: left;
+    grid-column: 3 / span 10;
+    width: 744px;
+    font-size: 16px;
+   
+  }
+  
+  .contact:hover,
+  .contact {
+    color: #d67b9a;
+    
+  }
+
+.history-description {
+    text-align: left;
+    grid-column: 2 / span 5;
+    width: 456px;
+    margin-top: 50px;
+    
+    
+}
+.history {
+    grid-column: 7 / span 11;
+    text-align: right;
+    width: 600px;
+    margin-top: 50px;
+    
+}
+
+.food {
+    grid-column: 2 / span 5;
+    text-align: left;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.food-description {
+    grid-column: 7 / span 11;
+    text-align: left;
+    width: 456px;
+    margin-top: 50px;
+    
+}
+
+.burger-description {
+    grid-column: 2 / span 5;
+    text-align: left;
+    width: 456px;
+    margin-top: 50px;
+    
+}
+
+.burger {
+    grid-column: 7 / span 11;
+    text-align: right;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.donut {
+    grid-column: 2 / span 5;
+    text-align: left;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.donut-description {
+    grid-column: 7 / span 11;
+    text-align: left;
+    width: 456px;
+    margin-top: 50px;
+}
+
+.mochi-description {
+    grid-column: 2 / span 5;
+    text-align: left;
+    width: 456px;
+    margin-top: 50px;
+}
+
+.mochi {
+    grid-column: 7 / span 11;
+    text-align: right;
+    width: 600px;
+    margin-top: 50px;
+    
+}
+
+.taiko {
+    grid-column: 2 / span 5;
+    text-align: left;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.taiko-description {
+    grid-column: 7 / span 11;
+    text-align: left;
+    width: 456px;
+    margin-top: 50px;
+}
+
+.performance {
+    grid-column: 2 / span 5;
+    text-align: left;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.performance-description {
+    grid-column: 7 / span 11;
+    text-align: left;
+    width: 456px;
+    margin-top: 50px;
+}
+
+.cosplay {
+    grid-column: 2 / span 5;
+    text-align: left;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.cosplay-description {
+    grid-column: 7 / span 11;
+    text-align: left;
+    width: 456px;
+    margin-top: 50px;
+}
+
+.parade {
+    grid-column: 2 / span 5;
+    text-align: left;
+    width: 600px;
+    margin-top: 70px;
+}
+
+.parade-description {
+    grid-column: 7 / span 11;
+    text-align: left;
+    width: 456px;
+    margin-top: 50px;
+}
+
+.art {
+    grid-column: 2 / span 5;
+    text-align: left;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.art-description {
+    grid-column: 7 / span 11;
+    text-align: left;
+    width: 456px;
+    margin-top: 50px;
+}
+
+.art-mart {
+    grid-column: 7 / span 11;
+    text-align: left;
+    width: 456px;
+    color: #E296A7;
+    text-decoration: none;
+    text-align: left;
+    margin:0px;
+    padding:0px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.list-wrapper {
+	position: relative;
+	width: 500px;
+	padding: 3rem 4rem;
+	border-radius: 5px;
+  height:500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  font-size: 30px;
+  font-family: 'Noto Serif', serif;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.styled-list {
+	list-style-position: inside;
+	position: relative;
+	width: 500px;
+  height:500px;
+	padding: 1.2rem;
+	line-height: 1.5rem;
+	background: white;
+	border-radius: 5px;
+	box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+		0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    
+}
+
+li {
+	position: relative;
+	list-style: none;
+}
+
+label {
+	cursor: pointer;
+}
+
+label:hover {
+	text-decoration: line-through;
+	color: #a9a9a9;
+}
+
+input:checked ~ span {
+	text-decoration: line-through;
+	color: #ccc;
+}
+
+input[type="checkbox"] {
+	appearance: none;
+	margin: 0;
+}
+
+
+
+
+
+.container{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content:center;
+  padding:0px 100px 0px 100px;
+  grid-column: 6; 
+  text-align: center;
+
+}
+
+a{
+  font-size: 50px;
+  color: #E296A7;
+  text-decoration: none;
+}
+
+#prev{
+  width: 50%;
+padding-right: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#next{
+  width:50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-left:10px;
+}
+
